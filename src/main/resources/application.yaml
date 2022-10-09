@@ -8,8 +8,9 @@ spring:
   jmx:
     enabled: true
   redis:
-    host: 127.0.0.1
+    host: 121.196.166.234
     port: 6379
+    password:
   activemq:
     broker-url: tcp://121.196.166.234:61616
     user: system
@@ -21,4 +22,4 @@ spring:
 #Logging
 logging:
   level:
-    com.example.hellospringboot: debug
+    com.zwchen.example.msa.springboot: debug

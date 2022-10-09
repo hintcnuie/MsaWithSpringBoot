@@ -1,7 +1,7 @@
-package com.example.hellospringboot.controller;
+package com.zwchen.example.msa.springboot.controller;
 
-import com.example.hellospringboot.po.User;
-import com.example.hellospringboot.service.UserService;
+import com.zwchen.example.msa.springboot.po.User;
+import com.zwchen.example.msa.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

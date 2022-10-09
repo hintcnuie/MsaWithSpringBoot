@@ -1,6 +1,6 @@
-package com.example.hellospringboot.mapper;
+package com.zwchen.example.msa.springboot.mapper;
 
-import com.example.hellospringboot.po.User;
+import com.zwchen.example.msa.springboot.po.User;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

@@ -1,6 +1,6 @@
-package com.example.hellospringboot.service;
+package com.zwchen.example.msa.springboot.service;
 
-import com.example.hellospringboot.po.User;
+import com.zwchen.example.msa.springboot.po.User;
 
 import java.util.List;
 

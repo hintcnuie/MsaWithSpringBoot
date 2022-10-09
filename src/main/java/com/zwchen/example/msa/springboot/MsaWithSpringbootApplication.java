@@ -1,4 +1,4 @@
-package com.example.hellospringboot;
+package com.zwchen.example.msa.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

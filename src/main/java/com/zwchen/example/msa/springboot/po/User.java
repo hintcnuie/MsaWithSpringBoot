@@ -1,8 +1,11 @@
-package com.example.hellospringboot.po;
+package com.zwchen.example.msa.springboot.po;
 
 import javax.swing.*;
 import java.io.Serializable;
 
+/**
+ * @author zwchen
+ */
 public class User implements Serializable {
 
     private static final long serialVersionUID = -2646915011063820963L;

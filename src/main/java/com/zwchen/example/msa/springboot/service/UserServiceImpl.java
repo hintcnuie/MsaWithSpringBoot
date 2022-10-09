@@ -1,8 +1,7 @@
-package com.example.hellospringboot.service;
+package com.zwchen.example.msa.springboot.service;
 
-import com.example.hellospringboot.mapper.UserMapper;
-import com.example.hellospringboot.po.User;
-import org.apache.ibatis.annotations.Mapper;
+import com.zwchen.example.msa.springboot.mapper.UserMapper;
+import com.zwchen.example.msa.springboot.po.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;

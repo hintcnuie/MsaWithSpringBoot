@@ -1,4 +1,4 @@
-package com.example.hellospringboot.controller;
+package com.zwchen.example.msa.springboot.controller;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,6 +15,6 @@ public class QueueCustomerController {
      */
     @JmsListener(destination="${spring.activemq.queue-name}", containerFactory="queueListener")
     public void readActiveQueue(String message){
-        System.out.println("Received Message:" + message);
+        System.out.println("QueueCustomerController 接收到JMS Queue Message:" + message);
     }
 }

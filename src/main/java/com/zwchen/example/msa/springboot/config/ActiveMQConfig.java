@@ -1,4 +1,4 @@
-package com.example.hellospringboot.config;
+package com.zwchen.example.msa.springboot.config;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 import javax.jms.Queue;
